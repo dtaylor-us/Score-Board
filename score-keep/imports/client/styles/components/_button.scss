@@ -1,0 +1,29 @@
+.button {
+  background: $dk-background-color;
+  border: 2px solid $primary-color;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1;
+  margin-left: 1.3rem;
+  outline: none;
+  padding: 1.3rem;
+  border-radius: .3rem;
+  transition: background .2s ease, transform .2s ease;
+
+  &:hover, &:focus {
+    background: #5e5e5e;
+  }
+
+  &:active {
+    background: #6c6c6c;
+    transform: scale(1.1);
+  }
+}
+
+.button--round {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}

@@ -1,0 +1,34 @@
+
+$primary-color: #ddff97;
+$dk-background-color: #505050;
+$lt-background-color: #f8ffea;
+$body-text-color: #555555;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #f8ffea;
+    color: $body-text-color;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+
+// IMPORTS
+@import './components/_title-bar';
+@import './components/_wrapper';
+@import './components/_item';
+@import './components/_button';
+@import './components/_player';
+@import './components/_form';

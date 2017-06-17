@@ -1,0 +1,18 @@
+.player {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player__name {
+    font-weight: 300;
+}
+
+.player__stats {
+    color: $lt-background-color;
+    font-size: 1.3rem;
+}
+
+.player__actions {
+
+}

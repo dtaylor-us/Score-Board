@@ -1,0 +1,26 @@
+.item {
+    background:$dk-background-color;
+    color: $primary-color;
+    border: 1px solid #6c6c6c;
+    margin-bottom: 1.3rem;
+    padding: 1.3rem;
+    border-radius: .3rem;
+}
+
+.item__message {
+    font-weight: 300px;
+    color: white;
+    text-align: center;
+}
+
+.item--position-1 {
+    background: #4c5735;
+}
+
+.item--position-2 {
+    background: #355257;
+}
+
+.item--position-3 {
+    background: #573535;
+}
